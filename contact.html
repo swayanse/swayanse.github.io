@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+
+    <!-- Stylesheet Links -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header/Nav Bar-->
+    <header id="header">
+        <div class="container">
+            <a href="index.html" id="logo">Kelly Corwin</a>
+                <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Container for page elements-->    
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
+        <!-- Contact box with form for to send me an e-mail -->
+            <form id="contact-form" action="mailto:duckshirt@gmail.com" method="post" enctype="text/plain">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="what's your name?" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="youremail@jmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required" placeholder="I'm a budding developer, AMA."></textarea>
+                    </li>
+                </ul>
+                <input type="submit" value="Send"><input type="reset" value="Reset">
+            </form>
+        </section>    
+        <!-- Links to my profiles on other sites-->
+        <div class="container">
+            <h3>Connect with Me</h3>
+            <a href="http://swayanse.github.io" alt="github" class="contact-thumb"><img src="assets/images/github-logo.jpg" alt="Github link for Kelly Corwin" style="max-width: 200px"></a>
+            <a href="" alt="linked in" class="contact-thumb"><img src="assets/images/Linkedin.png" alt="LinkedIn link for Kelly Corwin" style="max-width: 200px"></a>
+            <a href="" alt="stack overflow" class="contact-thumb"><img src="assets/images/stackoverflow.png" alt="Stack Overflow link for Kelly Corwin" style="max-width: 200px"></a>
+        </div>
+    </div>
+<!-- Footer with copywright information-->
+    <footer>
+        <div class="container">
+            Free to use, no &copy; here
+        </div>
+    </footer>
+</body>
+</html>
