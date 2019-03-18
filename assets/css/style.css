@@ -166,6 +166,7 @@ h3, h2{
     margin-right: 25px;
     border-right: 5px;
     border-color: #4aaaa5;
+    image-orientation: from-image;
     
 }
 
