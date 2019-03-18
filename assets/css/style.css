@@ -23,6 +23,11 @@ body{
 h1, h2, h3, p{
     margin-bottom: 20px;
 }
+p{
+    font-size: 12px;
+    padding: 5px;  
+}
+
 p:last-child{
     margin-bottom: 0;
 }
@@ -159,9 +164,9 @@ h3, h2{
     float: left;
     margin-top: 10px;
     margin-right: 25px;
+    border-right: 5px;
     border-color: #4aaaa5;
-    border: 3px;
-    padding: 5px;
+    
 }
 
 /* contact page */
