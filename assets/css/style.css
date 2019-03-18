@@ -114,9 +114,10 @@ h3, h2{
     width: 100%;
     max-width: 960px;
     padding: 30px;
-    margin: 0 0 40px;
+    margin: 10px 40px;
     background: #fff;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
+    margin-left: 5px;
 }
 
 /* portfolio page */
@@ -158,6 +159,9 @@ h3, h2{
     float: left;
     margin-top: 10px;
     margin-right: 25px;
+    border-color: #4aaaa5;
+    border: 3px;
+    padding: 5px;
 }
 
 /* contact page */
@@ -169,6 +173,12 @@ h3, h2{
 #contact-form li{
     margin-bottom: 10px;
 }
+
+#contact-thumb{
+    max-width: 200px;
+    text-align: center;
+}
+
 label,
 input[type=text],
 input[type=email],
@@ -189,8 +199,7 @@ textarea{
 textarea{
     height: 200px;
 }
-input[type=submit],
-input[type=reset]{
+.form-buttons{
     padding: 10px 30px;
     font-size: 18px;
     color: #fff;
