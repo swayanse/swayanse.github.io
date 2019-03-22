@@ -114,60 +114,64 @@ h3, h2{
     min-height: calc(100vh - 70px);
 }
 
+#bio-pic{
+    width: 250px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    image-orientation: from-image;
+}
+
 .main-section{
     float: left;
     width: 100%;
     max-width: 960px;
-    padding: 30px;
-    margin: 10px 40px;
+    padding: 15px;
+    margin: 0 0 40px;
     background: #fff;
     border: 2px solid #ddd;
-    margin-left: 5px;
 }
 
 /* portfolio page */
+#work-container{
+    position: relative;
+    text-align: center;
+}
 
 .work {
     position: relative;
-    float: left;
-    width: 255px;
+    width: 500px;
     margin: 20px 0 25px;
     overflow: auto;
 }
 
-.work:nth-child(even){
+#work1, #work3{
+    float: left;
+    margin-left: 40px;
+}
+
+#work2, #work4{
+    float: right;
     margin-right: 40px;
 }
+
 
 .work img{
     width: 100%;
     border: 0 none;
 }
 
-.work h3{
+.work h5{
     position: absolute;
-    bottom: 20px;
     width: 100%;
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 0;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 20px;
     color: #fff;
     text-align: center;
     background: #4aaaa5;
-    border-bottom: 0;
-}
-
-#bio-pic{
-    width: 300px;
-    height: auto;
-    float: left;
-    margin-top: 10px;
-    margin-right: 25px;
-    border-right: 5px;
-    border-color: #4aaaa5;
-    image-orientation: from-image;
-    
+    border-bottom: 2px;
 }
 
 /* contact page */
